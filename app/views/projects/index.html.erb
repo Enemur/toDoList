@@ -1,0 +1,36 @@
+<h1>Задачи <%= link_to '+', root_path, :id => "show_create_to_do" %></h1>
+
+<table>
+  <% @projects.each do |project|  %>
+    <tr>
+      <td>
+        <h2>
+          <%= project.title %>
+        </h2>
+        <ul>
+          <% project.to_dos.each do |to_do| %>
+            <li>
+              <%= to_do.text %>
+            </li>
+          <% end %>
+        </ul>
+      </td>
+    </tr>
+  <% end %>
+</table>
+
+<div id="div_create_to_do" hidden>
+  <h2>Новая задача</h2>
+  <%= form_for :to_do, url: to_dos_path, html: {id: :form_create_to_do} do |form| %>
+    <p>
+      <%= form.text_field :text , placeholder: "Название задачи" %>
+    </p>
+    <p>
+      <%= form.collection_select :project_id, @projects.all, :id, :title %>
+    </p>
+    <p>
+      <%= link_to 'ОТМЕНА', root_path, :id => "hide_create_to_do" %>
+      <%= link_to 'OK', root_path, :id => "create_to_do" %>
+    </p>
+  <% end %>
+</div>

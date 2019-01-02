@@ -11,6 +11,26 @@
 // about supported directives.
 //
 //= require rails-ujs
-//= require activestorage
-//= require turbolinks
+//= require jquery
+//= require jquery.min.js
 //= require_tree .
+
+$(document).ready(function() {
+    $("#create_to_do").on("click", function (event) {
+        event.preventDefault();
+
+        $("#form_create_to_do").submit();
+    });
+
+    $("#hide_create_to_do").on("click", function (event) {
+        event.preventDefault();
+
+        $("#div_create_to_do").hide();
+    });
+
+    $("#show_create_to_do").on("click", function (event) {
+        event.preventDefault();
+
+        $("#div_create_to_do").show();
+    });
+});
