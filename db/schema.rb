@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 2018_12_29_192028) do
   create_table "to_dos", force: :cascade do |t|
     t.text "text"
     t.boolean "isCompleted"
-    t.bigint "project_id"
+    t.bigint "project_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["project_id"], name: "index_to_dos_on_project_id"
