@@ -1,36 +1,60 @@
-<h1>Задачи <%= link_to '+', root_path, :id => "show_create_to_do" %></h1>
+<div id="body">
+  <div id="div-header">
+    <h1>
+      <div class="header-tasks">Задачи</div>
+      <div class="header-show-create-to_do"><%= link_to '+', root_path, :id => "show_create_to_do" %></div>
+    </h1>
+  </div>
 
-<table>
-  <% @projects.each do |project|  %>
-    <tr>
-      <td>
-        <h2>
-          <%= project.title %>
-        </h2>
-        <ul>
-          <% project.to_dos.each do |to_do| %>
-            <li>
-              <%= to_do.text %>
-            </li>
-          <% end %>
-        </ul>
-      </td>
-    </tr>
-  <% end %>
-</table>
+  <section id="content">
+    <div class="container">
+      <div class="row">
+        <% @projects.each do |project|  %>
+          <div class="col-sm-6 col-lg-4">
+            <div class="div-project">
+              <div class="div-project-title">
+                <h3>
+                  <%= project.title %>
+                </h3>
+              </div>
+              <ul>
+                <% project.to_dos.each do |to_do| %>
+                  <div class="div-to-do">
+                    <li id="li-<%= to_do.id%>" <% if to_do.isCompleted %>style="text-decoration: line-through" <% end %>>
+                      <%= form_for :to_do, url: to_do_path(id: to_do.id), html: {id: "form-"+to_do.id.to_s}, method: :put do |form| %>
+                        <input type="hidden" name="isCompleted" value="<%= not to_do.isCompleted %>">
+                        <input type="checkbox" value="<%= to_do.id %>" <% if to_do.isCompleted %>checked<% end %>>
+                        <%= to_do.text %>
+                      <% end %>
+                    </li>
+                  </div>
+                <% end %>
+              </ul>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </section>
+</div>
 
 <div id="div_create_to_do" hidden>
-  <h2>Новая задача</h2>
   <%= form_for :to_do, url: to_dos_path, html: {id: :form_create_to_do} do |form| %>
-    <p>
-      <%= form.text_field :text , placeholder: "Название задачи" %>
-    </p>
-    <p>
-      <%= form.collection_select :project_id, @projects.all, :id, :title %>
-    </p>
-    <p>
-      <%= link_to 'ОТМЕНА', root_path, :id => "hide_create_to_do" %>
-      <%= link_to 'OK', root_path, :id => "create_to_do" %>
-    </p>
+    <div class="form_title">
+      <h2>Новая задача</h2>
+    </div>
+    <div class="form-content">
+      <%= form.text_field :text , placeholder: "Название задачи...", class: "text-field-form" %><br>
+      <select name="project_id" class="form-select-project" style="width: 100%">
+        <option></option>
+          <% @projects.each do |project|  %>
+            <option value=<%= project.id %>><%= project.title %></option>
+          <% end %>
+      </select>
+      <div class="form-btns">
+        <div class="btn_cancel"><%= link_to 'ОТМЕНА', root_path, :id => "hide-create-to-do" %></div>
+        <div class="btn_create"><%= link_to 'OK', root_path, :id => "create-to-do" %></div>
+      </div>
+    </div>
   <% end %>
 </div>
