@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91b8b7b5-5887-41c0-9dc6-7f45471c83f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/toDoList.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/toDoList.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/to_dos_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/to_dos_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/projects/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/projects/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/byebug" beforeDir="false" afterPath="$PROJECT_DIR$/bin/byebug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/chromedriver-helper" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chromedriver-helper" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/chromedriver-update" beforeDir="false" afterPath="$PROJECT_DIR$/bin/chromedriver-update" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/listen" beforeDir="false" afterPath="$PROJECT_DIR$/bin/listen" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/nokogiri" beforeDir="false" afterPath="$PROJECT_DIR$/bin/nokogiri" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/puma" beforeDir="false" afterPath="$PROJECT_DIR$/bin/puma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/pumactl" beforeDir="false" afterPath="$PROJECT_DIR$/bin/pumactl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/rackup" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rackup" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sass" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sass-convert" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sass-convert" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/scss" beforeDir="false" afterPath="$PROJECT_DIR$/bin/scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/sprockets" beforeDir="false" afterPath="$PROJECT_DIR$/bin/sprockets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/thor" beforeDir="false" afterPath="$PROJECT_DIR$/bin/thor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tilt" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tilt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/rake" beforeDir="false" afterPath="$PROJECT_DIR$/bin/rake" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -42,7 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/toDoList@Development__toDoList.rcov" NAME="Development: toDoList Coverage Results" MODIFIED="1547495579030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="toDoList" />
+    <SUITE FILE_PATH="coverage/toDoList@Development__toDoList.rcov" NAME="Development: toDoList Coverage Results" MODIFIED="1547501584092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="toDoList" />
     <SUITE FILE_PATH="coverage/toDoList@test__toDoList.rcov" NAME="test: toDoList Coverage Results" MODIFIED="1546117608607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="toDoList" />
   </component>
   <component name="FileEditorManager">
@@ -51,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/projects/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -60,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/projects.coffee">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -69,16 +48,25 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/to_dos_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="126" column="17" selection-start-line="126" selection-start-column="17" selection-end-line="126" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="117" column="8" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
+            <state relative-caret-position="197">
+              <caret line="57" column="27" lean-forward="true" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -87,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="815">
-              <caret line="55" column="11" lean-forward="true" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+              <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -154,11 +142,11 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/vendor/blue.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/vendor/blue.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/projects/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/to_dos_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -172,7 +160,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
     <option name="y" value="27" />
-    <option name="width" value="1174" />
+    <option name="width" value="927" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
@@ -277,6 +265,11 @@
             <path>
               <item name="toDoList" type="b2602c69:ProjectViewProjectNode" />
               <item name="toDoList" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="toDoList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toDoList" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -296,7 +289,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.26103646" />
   </component>
   <component name="RunDashboard">
@@ -426,8 +419,16 @@
       <workItem from="1546124244415" duration="82868000" />
       <workItem from="1546512540477" duration="21126000" />
       <workItem from="1547494561793" duration="122000" />
-      <workItem from="1547494769570" duration="987000" />
+      <workItem from="1547494769570" duration="3579000" />
     </task>
+    <task id="LOCAL-00001" summary="add some styles">
+      <created>1547495805640</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547495805640</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -436,7 +437,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124814000" />
+    <option name="totallyTimeSpent" value="127406000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,17 +454,17 @@
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" weight="0.35754824" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.73325765" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
       <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.4991699" weight="0.32779622" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.4991699" visible="true" weight="0.32779622" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.3293348" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32838982" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.66740453" weight="0.22033899" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.66740453" weight="0.34662238" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.33259547" side_tool="true" weight="0.35332605" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3293348" />
       <window_info anchor="bottom" id="Debug" order="12" weight="0.3991276" />
@@ -497,6 +498,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add some styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some styles" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///var/lib/gems/2.5.0/gems/did_you_mean-1.3.0/lib/did_you_mean/jaro_winkler.rb" />
@@ -544,13 +549,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/to_dos_helper.rb">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20181229180610_create_projects.rb">
       <provider selected="true" editor-type-id="text-editor">
@@ -723,13 +721,6 @@
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/vendor/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -768,38 +759,52 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/to_dos_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/projects/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/projects.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="815">
-          <caret line="55" column="11" lean-forward="true" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="117" column="8" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="8" />
+        <state relative-caret-position="194">
+          <caret line="126" column="17" selection-start-line="126" selection-start-column="17" selection-end-line="126" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="57" column="27" lean-forward="true" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
         </state>
       </provider>
     </entry>
