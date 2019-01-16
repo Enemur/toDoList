@@ -35,11 +35,32 @@ body {
     margin: 0;
 }
 
-#div-header {
+#header {
     width: 100%;
-    background-color:deepskyblue;
+    background-color: deepskyblue;
     color: white;
     padding: 10px;
+    text-align: center;
+    height: 60px;
+}
+#header div.show-form {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 60px;
+    text-align: center;
+}
+
+#header div.show-form h1 {
+    margin: auto;
+    vertical-align: middle;
+    line-height:60px;
+}
+
+#header h1.title {
+    margin: auto;
+    vertical-align: middle;
 }
 
 section {
@@ -59,37 +80,9 @@ h3 {
     text-transform: uppercase;
 }
 
-#show_create_to_do, #hide-create-to-do, #create-to-do {
+#show-form-create-to-do, #hide-create-to-do, #create-to-do {
     text-decoration: none;
     color: white;
-}
-
-#div-header div.header-show-create-to_do {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 50px;
-}
-
-#div-header div.header-tasks {
-    position: absolute;
-    top: 0;
-    text-align: center;
-    min-width: 90%;
-}
-
-.div-project {
-    padding: 10px;
-
-    -webkit-box-shadow: 0 0 23px -8px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0 0 23px -8px rgba(0,0,0,0.75);
-    box-shadow: 0 0 23px -8px rgba(0,0,0,0.75);
-}
-
-.div-project-title {
-    border-bottom: #BBBBBB;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
 }
 
 .select2-selection, .select2-selection__rendered, .select2-selection__arrow {
@@ -104,17 +97,18 @@ h3 {
     border-radius: 0 !important;
 }
 
-#div_create_to_do {
+#div-create-to-do {
     position: absolute;
     background-color: white;
     top: 50%; left: 50%;
     transform: translate(-50%,-50%);
     width: 400px;
     height: 250px;
+
     box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.6);
 }
 
-div.form_title {
+div.form-title {
     border-bottom: #BBBBBB;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -144,41 +138,59 @@ div.form-btns {
     height: 40px;
 }
 
-.btn_cancel {
+.btn-cancel {
+    position: relative;
     display: inline-block;
     background-color: #999999;
     width: 45%;
     height: 40px;
     text-align: center;
-    padding: 10px;
+    vertical-align: middle;
 }
 
-.btn_create {
+.btn-create {
+    position: relative;
     float: right;
     display: inline-block;
     background-color: #999999;
     width: 45%;
     height: 40px;
     text-align: center;
-    padding: 10px;
 }
 
-.btn_create :hover {
-    display: inline-block;
-    width: 100%;
+.btn-create :hover {
     background-color: deepskyblue;
 }
 
-.btn_cancel :hover {
-    display: inline-block;
-    width: 100%;
+.btn-cancel :hover {
     background-color: deepskyblue;
 }
 
 #hide-create-to-do {
     display: block;
+    height: 100%;
+    line-height: 40px;
 }
 
 #create-to-do {
     display: block;
+    height: 100%;
+    line-height: 40px;
+}
+
+.project-content {
+    margin: 10px;
+    padding: 0;
+
+    -webkit-box-shadow: 0 0 7px 0 rgba(0,0,0,0.47);
+    -moz-box-shadow: 0 0 7px 0 rgba(0,0,0,0.47);
+    box-shadow: 0 0 7px 0 rgba(0,0,0,0.47);
+}
+
+.div-project-title {
+    padding: 10px 0 0 10px;
+
+    border-bottom: #BBBBBB;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
 }

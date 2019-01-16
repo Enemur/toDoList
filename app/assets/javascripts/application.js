@@ -22,20 +22,20 @@ $(document).ready(function() {
         let project_id = $('.form-select-project').val();
         let text = $(".text-field-form").val();
         if (project_id > 0 && text !== '') {
-            $("#form_create_to_do").submit();
+            $("#form-create-to-do").submit();
         }
     });
 
     $("#hide-create-to-do").on("click", function (event) {
         event.preventDefault();
 
-        $("#div_create_to_do").hide();
+        $("#div-create-to-do").hide();
     });
 
-    $("#show_create_to_do").on("click", function (event) {
+    $("#show-form-create-to-do").on("click", function (event) {
         event.preventDefault();
 
-        $("#div_create_to_do").show();
+        $("#div-create-to-do").show();
     });
 
     $('input')
@@ -44,14 +44,7 @@ $(document).ready(function() {
             radioClass: 'iradio_square-blue'
         })
         .on('ifToggled', function (event) {
-            let isChecked = $(this).is(':checked');
             let val = $(this).val();
-
-            if (isChecked)
-                $('#li-'+val).css("text-decoration", "line-through");
-            else
-                $('#li-'+val).css("text-decoration", "none");
-
             $('#form-'+val).submit();
         });
 

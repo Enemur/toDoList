@@ -1,21 +1,17 @@
-<div id="body">
-  <div id="div-header">
-    <h1>
-      <div class="header-tasks">Задачи</div>
-      <div class="header-show-create-to_do"><%= link_to '+', root_path, :id => "show_create_to_do" %></div>
-    </h1>
-  </div>
+<div id="header">
+    <h1 class="title">Задачи</h1>
+    <div class="show-form"><h1><%= link_to '+', root_path, :id => "show-form-create-to-do" %></h1></div>
+</div>
 
+<div id="body">
   <section id="content">
     <div class="container">
       <div class="row">
         <% @projects.each do |project|  %>
           <div class="col-sm-6 col-lg-4">
-            <div class="div-project">
+            <div class="project-content">
               <div class="div-project-title">
-                <h3>
-                  <%= project.title %>
-                </h3>
+                <h3><%= project.title %></h3>
               </div>
               <ul>
                 <% project.to_dos.each do |to_do| %>
@@ -38,9 +34,9 @@
   </section>
 </div>
 
-<div id="div_create_to_do" hidden>
-  <%= form_for :to_do, url: to_dos_path, html: {id: :form_create_to_do} do |form| %>
-    <div class="form_title">
+<div id="div-create-to-do" hidden>
+  <%= form_for :to_do, url: to_dos_path, html: {id: :"form-create-to-do"} do |form| %>
+    <div class="form-title">
       <h2>Новая задача</h2>
     </div>
     <div class="form-content">
@@ -52,8 +48,8 @@
           <% end %>
       </select>
       <div class="form-btns">
-        <div class="btn_cancel"><%= link_to 'ОТМЕНА', root_path, :id => "hide-create-to-do" %></div>
-        <div class="btn_create"><%= link_to 'OK', root_path, :id => "create-to-do" %></div>
+        <div class="btn-cancel"><%= link_to 'ОТМЕНА', root_path, :id => "hide-create-to-do" %></div>
+        <div class="btn-create"><%= link_to 'OK', root_path, :id => "create-to-do" %></div>
       </div>
     </div>
   <% end %>
